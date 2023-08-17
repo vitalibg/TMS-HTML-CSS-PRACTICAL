@@ -1,0 +1,49 @@
+.section-card {
+  background-color: rgb(215, 213, 213);
+}
+.card {
+  width: 300px;
+  /* height: 284px; */
+  border: 10px solid coral;
+  /* border-top: 10px solid coral;
+  border-right: 5px solid coral;
+  border-bottom: 15px solid coral;
+  border-left: 25px solid coral; */
+  /* border-radius: 10px 20px 15px 0; */
+  border-radius: 20px;
+  margin: auto;
+  /* text-align: center; */
+  padding: 20px;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* display: none; */
+  /* visibility: visible; */
+  /* visibility: hidden; */
+  /* opacity: 0.3; */
+}
+.card-content {
+}
+.card-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card-subtitle {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card-text {
+  margin-bottom: 40px;
+}
+.card-text p {
+  text-align: right;
+  /* text-align: center; */
+}
+.card-btn {
+  /* margin-top: 40px; */
+  margin: auto;
+  display: block;
+  border: 0;
+  color: white;
+  background-color: cornflowerblue;
+  font-size: 18px;
+}

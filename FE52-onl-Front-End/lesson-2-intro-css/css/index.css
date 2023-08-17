@@ -1,0 +1,96 @@
+@import url("./header.css");
+@import url("./card.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  /* font-size: 24px;
+  background-color: coral; */
+}
+section {
+  padding: 100px 0;
+  /* margin: 100px 0; */
+}
+.section {
+  background-color: wheat;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  /* background-color: rgb(203, 202, 202); */
+}
+
+.block * {
+  font-size: 24px;
+}
+.flag {
+  /* width: 1000px; */
+  max-width: 1000px;
+  /* min-width: 1000px; */
+
+  height: 200px;
+  background-color: cornflowerblue;
+}
+.flag-2 {
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+.flag-3 {
+  width: 500px;
+  height: 50%;
+  background-color: coral;
+}
+
+/* div {
+  color: coral;
+  font-size: 32px !important;
+}
+#text-2 {
+  font-size: 46px;
+}
+#text-2-1 {
+  font-size: 46px;
+  background-color: cornflowerblue;
+}
+.text-2 {
+  background-color: cornflowerblue;
+  font-size: 18px;
+}
+div {
+  color: coral;
+  font-size: 24px;
+} */
+.auto {
+  background-color: cornflowerblue;
+  width: auto;
+}
+.main-title {
+  margin-bottom: 20px;
+}
+.subtitle {
+  margin-bottom: 10px;
+}
+.list {
+  margin-top: 20px;
+}
+.section-link {
+  margin-right: 30px;
+  margin-left: 20px;
+  /* margin: 20px 40px 10px 5px;
+  margin: 20px 10px 15px;
+  margin: 20px 0;
+  margin: 40px; */
+}
+.text p {
+  margin-bottom: 10px;
+}
+.text p:last-child {
+  margin-bottom: 0;
+}

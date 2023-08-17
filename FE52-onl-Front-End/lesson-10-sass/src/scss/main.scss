@@ -1,0 +1,67 @@
+.main {
+  padding: 20px 0;
+}
+.title {
+  @include h2;
+  text-align: left;
+}
+.subtitle {
+  @include h2;
+  text-align: center;
+}
+
+ul {
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (max-width: 860px) {
+    flex-direction: column;
+  }
+  @media (max-width: 320px) {
+    flex-direction: row;
+  }
+  // Aloha, Bro!
+  border: $_border;
+
+  &::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: $black;
+    display: block;
+  }
+
+  width: 400px;
+  li {
+    @media (max-width: 540px) {
+      background-color: $red;
+    }
+    background-color: cadetblue;
+    a {
+      font-size: $_20px;
+
+      &:hover {
+        color: aqua;
+      }
+    }
+  }
+}
+
+.block {
+  @include gradient;
+  height: 200px;
+  width: 300px / 1140px * 100%;
+  @media (max-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.tools {
+  width: 300px;
+  &-item {
+    font-size: 24px;
+  }
+}

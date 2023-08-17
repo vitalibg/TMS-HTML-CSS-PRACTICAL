@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: rgb(29, 28, 28);
+}
+.section {
+  padding: 30px 0;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px;
+  border: 1px solid #c5c5c5;
+}
+.grid-item {
+  color: #fff;
+}
+.grid-item_1 {
+  padding: 40px;
+  background-color: rgb(201, 7, 7);
+  align-self: stretch;
+  align-self: start;
+  align-self: end;
+  align-self: center;
+  justify-self: start;
+  justify-self: end;
+  justify-self: center;
+}

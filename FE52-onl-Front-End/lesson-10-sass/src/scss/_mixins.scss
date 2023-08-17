@@ -1,0 +1,36 @@
+@mixin h1 {
+  color: $orange;
+  font-family: "Raleway";
+  font-size: $_20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin h2 {
+  color: #212121;
+  font-family: "Raleway";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  border: $_border;
+  box-shadow: 0 0 15px $red;
+}
+@mixin gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(61, 62, 22, 1) 18%,
+    rgba(116, 121, 9, 0.1419161414565826) 35%,
+    rgba(80, 149, 85, 1) 55%,
+    rgba(50, 173, 149, 1) 72%,
+    rgba(23, 194, 206, 1) 87%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

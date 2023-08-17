@@ -1,0 +1,23 @@
+div {
+  color: coral;
+  margin-top: 20px;
+  /* display: none; */
+  /* display: inline; */
+}
+span {
+  /* display: block; */
+  display: inline-block;
+  margin-top: 20px;
+}
+img {
+  width: 300px;
+  /* display: block; */
+}
+
+p {
+  width: 300px;
+  margin: 0;
+}
+.vs-code {
+  color: palevioletred;
+}

@@ -1,0 +1,33 @@
+.nav {
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(229, 228, 228);
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+}
+.nav-navigation {
+}
+.nav-navigation-list {
+  display: flex;
+}
+.nav-navigation-list__item {
+  margin-left: 25px;
+}
+.nav-navigation-list__item a {
+  text-transform: uppercase;
+  color: rgb(92, 92, 92);
+}
+.link {
+  /* color: rgb(92, 92, 92); */
+}
+.active {
+  /* color: cornflowerblue; */
+}
+.nav-navigation-list__item a.active {
+  color: cornflowerblue;
+}

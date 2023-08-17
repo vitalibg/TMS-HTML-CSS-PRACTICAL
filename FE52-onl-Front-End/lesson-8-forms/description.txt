@@ -1,0 +1,85 @@
+!!!Самостоятельно tab-index!!!
+
+*** Form - атрибуты ***
+_________________________________________
+action - действие, которое будет происходить с формой после отправки
+name
+method
+
+
+*** label атрибуты ***
+_________________________________________
+for
+
+*** Form - input атрибуты ***
+_________________________________________
+checked
+disabled
+name 
+placeholder
+required обязательный к заполнению
+value
+maxlength
+minlength
+form
+step
+type
+
+*** Form - type значения ***
+_________________________________________
+text
+checkbox - name
+radio
+file
+password
+email
+tel
+number
+date
+time
+color
+range (min, max, value, step)
+
+
+*** textarea - Атрибуты ***
+_________________________________________
+cols
+rows
+disabled
+form
+maxlength
+name
+placeholder
+required
+
+
+textarea {
+  resize: none;
+}
+
+*** button - Атрибуты ***
+_________________________________________
+form
+disabled
+name
+
+*** значение button type ***
+button
+reset
+submit
+
+!!!*** select - Атрибуты, используется с option ***
+_________________________________________
+disabled
+form
+multuple \ size
+name
+required
+label
+
+
+!!!*** option - Атрибуты используется с select ***
+_________________________________________
+disabled
+value
+selected

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Lesson_8 Form</title>
+</head>
+
+<body>
+
+  <section class='section'>
+    <div class='container'>
+      <h1>Lesson-8 Form</h1>
+
+      <form id="contact">
+        <input type="text" id="userName" placeholder="user name">
+        <input type="password" id="userPassword" placeholder="user password"><br><br>
+        <button type="submit">SEND</button>
+      </form>
+
+      <br><br>
+
+      <form id="contact-us" class="contact-us" name="form-1" method="post">
+
+        <select name="" id="" multiple size="5">
+          <option disabled>Texture</option>
+          <option value="wood">wood</option>
+          <option value="stone" selected>stone</option>
+          <option value="water">water</option>
+          <option disabled>Colors</option>
+          <option value="yellow">yellow</option>
+          <option value="blue">blue</option>
+        </select>
+
+        <button type="button">button</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+
+        <textarea name="" id=""></textarea><br><br>
+
+        <input type="text" disabled name="userName"><br><br>
+        <input type="text" placeholder="user password *" class="password" maxlength="5" minlength="2"><br><br>
+        <input type="text" required><br><br>
+
+        <div class="item">
+          <label for="html">html</label>
+          <input type="checkbox" id="html" value="html"><br><br>
+        </div>
+        <div class="item">
+          <label for="css">css</label>
+          <input type="checkbox" id="css" value="css"><br><br>
+        </div>
+
+        <div class="item">
+          <label for="boy">boy</label>
+          <input type="radio" id="boy" value="boy" name="gender"><br><br>
+          <label for="girl">girl</label>
+          <input type="radio" id="girl" value="girl" name="gender"><br><br>
+        </div>
+
+        <div class="item">
+          <input type="radio" id="16" name="age" checked><br><br>
+          <input type="radio" id="18" name="age"><br><br>
+        </div>
+
+
+        <input type="file"><br><br>
+        <input type="password" placeholder="password"><br><br>
+        <input type="email" placeholder="email"><br><br>
+        <input type="tel" placeholder="tel"><br><br>
+        <input type="number" placeholder="number" step="0.2"><br><br>
+        <input type="date"><br><br>
+        <input type="time"><br><br>
+        <input type="color"><br><br>
+        <span>0</span> <input type="range" min="0" max="500" value="100"> <span>500</span> <br><br>
+
+
+        <button type="submit">send</button>
+      </form>
+
+      <input type="text" form="form-1"><br><br>
+
+    </div>
+  </section>
+
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

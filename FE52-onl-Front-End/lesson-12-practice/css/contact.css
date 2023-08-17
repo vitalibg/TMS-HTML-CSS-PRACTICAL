@@ -1,0 +1,28 @@
+.contact {
+}
+
+.contact-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left {
+  width: 250px;
+}
+.left-title {
+}
+.left-logo {
+}
+.left-text {
+}
+.right {
+  width: 594px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.right-link {
+  width: 130px;
+}
+.right-link__item {
+}

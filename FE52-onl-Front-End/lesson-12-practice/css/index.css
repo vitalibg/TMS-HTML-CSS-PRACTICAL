@@ -1,0 +1,28 @@
+@import url("../css/cdn.css");
+@import url("../css/header.css");
+@import url("../css/navigation.css");
+@import url("../css/story.css");
+@import url("../css/get_in.css");
+@import url("../css/newsletter.css");
+@import url("../css/newsletter.css");
+@import url("../css/contact.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-family: "Open Sans", "Bebas Neue", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 920px;
+  margin: auto;
+  padding: 0 15px;
+  position: relative;
+}

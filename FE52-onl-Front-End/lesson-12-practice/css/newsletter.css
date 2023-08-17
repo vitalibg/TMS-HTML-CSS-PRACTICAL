@@ -1,0 +1,40 @@
+.newsletter {
+  margin-top: -2px;
+  padding: 30px 0;
+  background-color: rgb(0, 0, 0);
+}
+.newsletter-wrap {
+}
+.newsletter-title {
+  color: #fff;
+  font-size: 22px;
+}
+.newsletter-item {
+  width: 383px;
+  display: flex;
+  align-items: center;
+}
+.email {
+  width: 250px;
+  height: 40px;
+  padding: 0 5px;
+  outline: none;
+  font-size: 16px;
+  border: 0;
+}
+.newsletter-btn {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  background-color: cornflowerblue;
+  color: #fff;
+  text-transform: uppercase;
+}
+form {
+  width: 685px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Bootstrap Lesson 13</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+
+    <!-- Slide -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1561948955-570b270e7c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=602&q=80"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1858&q=80"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Slide end -->
+
+
+
+    <!-- Вложенность -->
+
+    <div class="row row-block">
+      <h3><span class="orange">11</span> Вложенность</h3>
+    </div>
+    <div class="row">
+      <div class="col-sm-9">Level 1
+        <div class="row">
+          <div class="col-8  col-sm-6">Level 2</div>
+          <div class="col-8  col-sm-6">Level 2</div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Смещение колонок -->
+
+    <div class="row row-block">
+      <h3><span class="orange">10</span> Смещение колонок</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-4">col md 4</div>
+      <div class="col-md-4 offset-md-2">col md 4</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">col 6</div>
+    </div>
+
+
+    <!-- Порядок элементов -->
+
+    <div class="row row-block">
+      <h3><span class="orange">9</span> Порядок элементов</h3>
+    </div>
+    <div class="row">
+      <div class="col order-2 col-md-4 order-3">1</div>
+      <div class="col order-3">2</div>
+      <div class="col order-1">3</div>
+    </div>
+
+
+    <!-- Горизонтальное выравнивание -->
+
+    <div class="row row-block">
+      <h3><span class="orange">7</span> Горизонтальное выравнивание</h3>
+    </div>
+    <div class="row  justify-content-evenly">
+      <div class="col-3">start end ...</div>
+      <div class="col-3">start end ...</div>
+      <div class="col-3">start end ...</div>
+    </div>
+
+
+
+    <!-- Вертикальное выравнивание -->
+
+    <div class="row row-block">
+      <h3><span class="orange">6</span> Вертикальное выравнивание</h3>
+    </div>
+    <div class="row  align-items-center row-start">
+      <div class="col">start</div>
+      <div class="col">center</div>
+      <div class="col">end</div>
+    </div>
+    <div class="row row-start">
+      <div class="col align-self-start">start</div>
+      <div class="col align-self-center">center</div>
+      <div class="col align-self-end">end</div>
+    </div>
+
+
+
+    <!-- Сложная комбинированная сетка -->
+
+    <div class="row row-block">
+      <h3><span class="orange">5</span> Сложная комбинированная сетка</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-8">col md 8</div>
+      <div class="col-6 col-md-4">col-6 col-md-4</div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-4">col-6 col-md-4</div>
+      <div class="col-4 col-md-4">col-6 col-md-4</div>
+      <div class="col-5 col-md-4">col-6 col-md-4</div>
+    </div>
+
+
+    <!-- Адаптив, точка перелома -->
+
+    <div class="row row-block">
+      <h3><span class="orange">4</span> Адаптив, точка перелома</h3>
+    </div>
+    <div class="row">
+      <div class="col-6 col-sm-8 col-lg-10">col-8</div>
+      <div class="col-6 col-sm-4 col-lg-2">col-8</div>
+    </div>
+
+
+    <!-- Мульти-ряд -->
+
+    <div class="row row-block">
+      <h3><span class="orange">3</span> Мульти-ряд</h3>
+    </div>
+    <div class="row">
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="w-100"></div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="w-100"></div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+    </div>
+
+
+    <!-- Установка ширины одной колонки-->
+
+    <div class="row row-block">
+      <h3><span class="orange">2</span> Установка ширины одной колонки</h3>
+    </div>
+    <div class="row">
+      <div class="col">1 из 4</div>
+      <div class="col-6">2 из 4</div>
+      <div class="col-2">3 из 4</div>
+    </div>
+    <div class="row">
+      <div class="col">1 из 4</div>
+      <div class="col-8">2 из 4</div>
+      <div class="col">3 из 4</div>
+    </div>
+
+
+    <!-- Колонки одинаковой ширины -->
+
+    <div class="row row-block">
+      <h3><span class="orange">1</span> Колонки одинаковой ширины</h3>
+    </div>
+    <div class="row">
+      <div class="col">1 из 2</div>
+      <div class="col">2 из 2</div>
+    </div>
+    <div class="row">
+      <div class="col">1 из 3</div>
+      <div class="col">2 из 3</div>
+      <div class="col">3 из 3</div>
+    </div>
+    <div class="row">
+      <div class="col">1 из 4</div>
+      <div class="col">2 из 4</div>
+      <div class="col">3 из 4</div>
+      <div class="col">4 из 4</div>
+    </div>
+
+  </div>
+
+
+
+  <!-- <div class="card" style="width: 18rem;">
+    <img
+      src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+      class="card-img-top" alt="#">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

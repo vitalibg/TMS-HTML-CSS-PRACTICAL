@@ -1,0 +1,61 @@
+@import url("../css/text.css");
+
+.container {
+  padding: 0 15px;
+}
+.row {
+  border: 1px solid #808088;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row-block {
+  margin-top: 50px;
+}
+h3 {
+  font-size: 20px;
+  color: #808088;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.orange {
+  color: #cc7d22;
+}
+.col,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col-md-8,
+.col-md-4,
+.col-md-6,
+.col-sm-9 {
+  border: 1px solid #cc7d22;
+  background-color: aqua;
+  padding: 10px;
+  /* gx/gy - gutters  */
+}
+.row-start {
+  height: 100px;
+}
+/* .slide-block {
+  margin: 30px auto 0;
+}
+.slide-block,
+.carousel-item {
+  height: 400px;
+} */
+.card-body {
+  padding: 10px;
+}
+.btn-primary {
+  background-color: coral;
+  color: #fff;
+}

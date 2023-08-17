@@ -1,0 +1,54 @@
+.header {
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-wrap {
+  padding: 70px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+}
+.header-content {
+}
+.main-title {
+  text-align: center;
+  color: #fff;
+}
+.header-description {
+  text-align: center;
+  color: #fff;
+}
+.scroll {
+  text-transform: uppercase;
+  color: #fff;
+
+  animation-name: scroll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-delay: 2s; */
+  animation-timing-function: ease-in;
+  /* animation-direction: alternate; */
+}
+
+@keyframes scroll {
+  0% {
+    transform: scale(1);
+    color: #fff;
+  }
+  50% {
+    transform: scale(1.5);
+    color: cornflowerblue;
+    font-weight: 700;
+  }
+  100% {
+    transform: scale(1);
+    color: #fff;
+  }
+}

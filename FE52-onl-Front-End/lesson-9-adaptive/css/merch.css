@@ -1,0 +1,9 @@
+.merch-btn {
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.merch-btn:hover {
+  transform: scale(1.02);
+}
